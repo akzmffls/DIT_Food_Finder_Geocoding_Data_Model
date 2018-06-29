@@ -12,6 +12,8 @@
 		0572C91820C2B39400B79406 /* TotalMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0572C91720C2B39400B79406 /* TotalMapViewController.swift */; };
 		058F274720BEE6CC00271381 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F274620BEE6CC00271381 /* MapViewController.swift */; };
 		058F274A20BEE70300271381 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 058F274920BEE70300271381 /* MapKit.framework */; };
+		0C78993320E5F12600A59A52 /* PriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C78993220E5F12600A59A52 /* PriceViewController.swift */; };
+		0C78993720E5F41A00A59A52 /* QuestionAnswerer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C78993620E5F41A00A59A52 /* QuestionAnswerer.swift */; };
 		641A0F0520BBDA36004ECC5A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641A0F0420BBDA36004ECC5A /* DetailViewController.swift */; };
 		648FAC0520B29D5B00ACCE56 /* FoodStoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648FAC0420B29D5B00ACCE56 /* FoodStoreTableViewCell.swift */; };
 		741C17E520AC061400FE6E1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741C17E420AC061400FE6E1E /* AppDelegate.swift */; };
@@ -27,6 +29,8 @@
 		0572C91720C2B39400B79406 /* TotalMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalMapViewController.swift; sourceTree = "<group>"; };
 		058F274620BEE6CC00271381 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		058F274920BEE70300271381 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0C78993220E5F12600A59A52 /* PriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceViewController.swift; sourceTree = "<group>"; };
+		0C78993620E5F41A00A59A52 /* QuestionAnswerer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionAnswerer.swift; sourceTree = "<group>"; };
 		641A0F0420BBDA36004ECC5A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		648FAC0420B29D5B00ACCE56 /* FoodStoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodStoreTableViewCell.swift; sourceTree = "<group>"; };
 		741C17E120AC061400FE6E1E /* UiTableViewController Test 02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UiTableViewController Test 02.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +65,7 @@
 		05BEBCF220CEB189007033AD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0C78993620E5F41A00A59A52 /* QuestionAnswerer.swift */,
 				0564FFF120CE2C4F00353BD8 /* FoodStore.swift */,
 			);
 			path = Model;
@@ -69,6 +74,7 @@
 		05BEBCF320CEB1B7007033AD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				05BEBCF220CEB189007033AD /* Model */,
 				648FAC0420B29D5B00ACCE56 /* FoodStoreTableViewCell.swift */,
 				0572C91520C26BB100B79406 /* MapTableViewCell.swift */,
 			);
@@ -78,6 +84,7 @@
 		05BEBCF420CEB1C1007033AD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				0C78993220E5F12600A59A52 /* PriceViewController.swift */,
 				0572C91720C2B39400B79406 /* TotalMapViewController.swift */,
 				058F274620BEE6CC00271381 /* MapViewController.swift */,
 				741C17F620AC06C400FE6E1E /* MyTableViewController.swift */,
@@ -118,7 +125,6 @@
 				05BEBCF520CEB203007033AD /* Storyboard */,
 				05BEBCF420CEB1C1007033AD /* Controller */,
 				05BEBCF320CEB1B7007033AD /* View */,
-				05BEBCF220CEB189007033AD /* Model */,
 				741C17E420AC061400FE6E1E /* AppDelegate.swift */,
 				741C17EB20AC061400FE6E1E /* Assets.xcassets */,
 				741C17F020AC061400FE6E1E /* Info.plist */,
@@ -198,8 +204,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C78993720E5F41A00A59A52 /* QuestionAnswerer.swift in Sources */,
 				741C17E520AC061400FE6E1E /* AppDelegate.swift in Sources */,
 				648FAC0520B29D5B00ACCE56 /* FoodStoreTableViewCell.swift in Sources */,
+				0C78993320E5F12600A59A52 /* PriceViewController.swift in Sources */,
 				0572C91820C2B39400B79406 /* TotalMapViewController.swift in Sources */,
 				0572C91620C26BB100B79406 /* MapTableViewCell.swift in Sources */,
 				741C17F720AC06C400FE6E1E /* MyTableViewController.swift in Sources */,
